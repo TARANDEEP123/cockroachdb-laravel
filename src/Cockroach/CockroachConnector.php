@@ -1,6 +1,6 @@
 <?php
 
-namespace Nbj\Cockroach;
+namespace Tds\Cockroach;
 
 use PDO;
 use Illuminate\Database\Connectors\Connector;

@@ -1,12 +1,12 @@
 # cockroachdb-laravel
-CockroachDB database driver for Laravel 5
+CockroachDB database driver for Lumen 8
 
 ## Usage
 
 ### Step 1: Install Through Composer
 
 ```
-composer require nbj/cockroachdb-laravel
+composer require tds/cockroachdb-lumen
 ```
 
 ### Step 2: Add the Service Provider (This happens automatically in Laravel 5.5) 
@@ -14,7 +14,7 @@ composer require nbj/cockroachdb-laravel
 Open `config/app.php` and, to your "providers" array, add:
 
 ```php
-Nbj\Cockroach\CockroachServiceProvider::class
+Tds\Cockroach\CockroachServiceProvider::class
 ```
 
 ### Step 3: Add Database Driver Configuration 
@@ -67,14 +67,14 @@ And everything should work as expected.
 - Constraints cannot be in the same migration as the creation of a table. The workaround is to add your constraints to its own migration after the table
   has been created.
 
-## Usage without laravel
-It is entirely possible to use this driver without the entire Laravel framework.
+## Usage without lumen
+It is entirely possible to use this driver without the entire Lumen framework.
 Laravel's database components are neatly packaged in its own composer package
 called `illuminate/database` Simply require this package into your project, and
 you are ready to go.
 ```
 composer require illuminate/database
-composer require nbj/cockroachdb-laravel
+composer require tds/cockroachdb-lumen
 ```
 
 To set up a database connection you need to create a new `Capsule` and register it.
@@ -82,8 +82,8 @@ To set up a database connection you need to create a new `Capsule` and register 
 <?php
 
 use Illuminate\Database\Connection;
-use Nbj\Cockroach\CockroachConnector;
-use Nbj\Cockroach\CockroachConnection;
+use Tds\Cockroach\CockroachConnector;
+use Tds\Cockroach\CockroachConnection;
 use Illuminate\Database\Capsule\Manager as DB;
 
 require 'vendor/autoload.php';

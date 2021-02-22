@@ -1,13 +1,13 @@
 <?php
 
-namespace Nbj\Cockroach;
+namespace Tds\Cockroach;
 
 use Illuminate\Database\Connection;
-use Nbj\Cockroach\Builder\CockroachBuilder;
-use Nbj\Cockroach\Processor\CockroachProcessor;
+use Tds\Cockroach\Builder\CockroachBuilder;
+use Tds\Cockroach\Processor\CockroachProcessor;
 use Doctrine\DBAL\Driver\PDOPgSql\Driver as DoctrineDriver;
-use Nbj\Cockroach\Grammar\Query\CockroachGrammar as QueryGrammar;
-use Nbj\Cockroach\Grammar\Schema\CockroachGrammar as SchemaGrammar;
+use Tds\Cockroach\Grammar\Query\CockroachGrammar as QueryGrammar;
+use Tds\Cockroach\Grammar\Schema\CockroachGrammar as SchemaGrammar;
 
 class CockroachConnection extends Connection
 {

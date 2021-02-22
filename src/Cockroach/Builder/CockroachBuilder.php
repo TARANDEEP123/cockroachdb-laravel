@@ -1,6 +1,6 @@
 <?php
 
-namespace Nbj\Cockroach\Builder;
+namespace Tds\Cockroach\Builder;
 
 use Illuminate\Database\Schema\Builder;
 
