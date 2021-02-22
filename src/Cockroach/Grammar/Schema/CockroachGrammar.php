@@ -1,6 +1,6 @@
 <?php
 
-namespace Tds\Cockroach\Grammar\Schema;
+namespace Taran\Cockroach\Grammar\Schema;
 
 use Illuminate\Support\Fluent;
 use Illuminate\Database\Schema\Blueprint;

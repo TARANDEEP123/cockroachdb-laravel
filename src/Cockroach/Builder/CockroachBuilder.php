@@ -1,6 +1,6 @@
 <?php
 
-namespace Tds\Cockroach\Builder;
+namespace Taran\Cockroach\Builder;
 
 use Illuminate\Database\Schema\Builder;
 

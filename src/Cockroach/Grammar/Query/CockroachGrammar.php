@@ -1,6 +1,6 @@
 <?php
 
-namespace Tds\Cockroach\Grammar\Query;
+namespace Taran\Cockroach\Grammar\Query;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Tds\Cockroach\Processor;
+namespace Taran\Cockroach\Processor;
 
 use Illuminate\Database\Query\Builder;
 use Illuminate\Database\Query\Processors\Processor;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Tds\Cockroach;
+namespace Taran\Cockroach;
 
 use Illuminate\Database\Connection;
 use Illuminate\Support\ServiceProvider;

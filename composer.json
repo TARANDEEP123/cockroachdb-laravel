@@ -1,5 +1,5 @@
 {
-    "name": "tds/cockroachdb-lumen",
+    "name": "taran/cockroachdb-lumen",
     "description": "CockroachDB driver for Lumen 8",
     "keywords": ["cockroach", "cockroachdb", "lumen"],
     "type": "package",
@@ -7,19 +7,19 @@
     "authors": [
         {
             "name": "TD Singh",
-            "email": "tarandeeps19@gmail.com"
+            "email": "Tarandeeps19@gmail.com"
         }
     ],
     "require": {},
     "autoload": {
         "psr-4": {
-            "Tds\\": "src/"
+            "Taran\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Tds\\Cockroach\\CockroachServiceProvider"
+                "Taran\\Cockroach\\CockroachServiceProvider"
             ]
         }
     },

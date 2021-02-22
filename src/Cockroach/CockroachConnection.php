@@ -1,13 +1,13 @@
 <?php
 
-namespace Tds\Cockroach;
+namespace Taran\Cockroach;
 
 use Illuminate\Database\Connection;
-use Tds\Cockroach\Builder\CockroachBuilder;
-use Tds\Cockroach\Processor\CockroachProcessor;
+use Taran\Cockroach\Builder\CockroachBuilder;
+use Taran\Cockroach\Processor\CockroachProcessor;
 use Doctrine\DBAL\Driver\PDOPgSql\Driver as DoctrineDriver;
-use Tds\Cockroach\Grammar\Query\CockroachGrammar as QueryGrammar;
-use Tds\Cockroach\Grammar\Schema\CockroachGrammar as SchemaGrammar;
+use Taran\Cockroach\Grammar\Query\CockroachGrammar as QueryGrammar;
+use Taran\Cockroach\Grammar\Schema\CockroachGrammar as SchemaGrammar;
 
 class CockroachConnection extends Connection
 {
